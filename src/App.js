@@ -7,7 +7,6 @@ class App extends Component {
     this.state = { count: 0 }
   }
   countCharter = (e) => {
-    //e.persist()
     this.setState({ count: e.target.value.length })
   }
   render() {
